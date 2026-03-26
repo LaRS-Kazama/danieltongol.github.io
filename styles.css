@@ -107,3 +107,33 @@ p {
 a {
     text-decoration: none;
 }
+
+.tech-card {
+    background: var(--surface);
+    padding: 20px;
+    border-radius: 12px;
+    text-align: center;
+}
+
+.tech-card i {
+    font-size: 40px;
+    color: var(--primary);
+    margin-bottom: 10px;
+}
+
+.tech-card p {
+    margin: 0;
+    font-size: 0.9rem;
+}
+.tech-icon-text {
+    width: 40px;
+    height: 40px;
+    background: var(--primary);
+    color: #121212;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    border-radius: 8px;
+    margin: 0 auto 10px;
+}
